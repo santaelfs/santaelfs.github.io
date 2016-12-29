@@ -1,0 +1,91 @@
+/*
+ *  Website template designed by Alvin Wan (alvinwan.com)
+ */
+
+* {
+  font-family:'Raleway';
+  padding:0;
+  margin:0;
+}
+
+html, body {
+  min-height:100%;
+}
+
+section {
+  width:100%;
+  padding:5em 0;
+  float:left;
+}
+
+section:nth-child(even) {
+  background-color:#f6f6f6;
+  border:1px solid #eee;
+}
+
+.landing {
+  text-align:center;
+}
+
+  .landing .center {
+    float:none;
+    display:inline-block;
+  }
+
+  .landing .title,.display .title {
+    font-weight:800;
+    font-size:5em;
+    padding:0.5em 0;
+  }
+
+  .landing .subtitle {
+    text-transform:uppercase;
+  }
+
+  .landing .byline {
+    font-size:1.5em;
+  }
+
+.picture {
+  overflow:hidden;
+}
+
+  .picture img {
+    width:100%;
+  }
+
+  .right .picture img {
+    margin-left:-25%;
+  }
+
+  .left .picture {
+    float:right;
+  }
+
+  .left .picture img {
+    float:right;
+    margin-right:-25%;
+  }
+
+  .display .copy {
+    font-size:1.5em;
+    line-height:2em;
+  }
+
+  .display.text{
+    padding:0.5 em;
+  }
+  .right.display .text {
+    text-align:left;
+  }
+
+  .left.display .text {
+    text-align:right;
+  }
+
+footer {
+  float:left;
+  width:100%;
+  text-align:center;
+  margin:5em 0;
+}
